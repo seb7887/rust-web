@@ -1,4 +1,7 @@
 extern crate actix_web;
+extern crate diesel;
+extern crate dotenv;
+
 use actix_web::{web, App, HttpRequest, HttpResponse, HttpServer};
 use std::io;
 
